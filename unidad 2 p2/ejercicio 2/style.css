@@ -1,0 +1,29 @@
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 600px;
+    width: 600px;
+    border: 4px black solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
